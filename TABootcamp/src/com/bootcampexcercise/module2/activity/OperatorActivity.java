@@ -4,7 +4,7 @@ public class OperatorActivity {
     public static void main(String[] args) {
         int i = 7;
         int j = 10;
-
-        System.out.println("The sum of a and b is = " + Integer.sum(i,j));
+        int sum = i + j;
+        System.out.println(sum);
     }
 }
