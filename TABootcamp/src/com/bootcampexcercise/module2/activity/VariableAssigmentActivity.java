@@ -6,4 +6,10 @@ public class VariableAssigmentActivity {
         i = 10;
         System.out.println("Variable i = " +i);
     }
+
+    public static int sum(int a, int b)
+    {
+        int test = 0;
+        return a + b;
+    }
 }
