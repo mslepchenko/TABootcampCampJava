@@ -3,7 +3,7 @@ package com.bootcampexcercise.module2.activity;
 public class NumToWords {
     public static void main(String[] args) {
 
-        int z = 6;
+        int z = 3;
        switch (z) {
            case 1:
                System.out.println("The number is bigger than 5");
@@ -12,7 +12,7 @@ public class NumToWords {
                System.out.println("The number is 5");
                break;
            default:
-               System.out.println("The number is 6");
+               System.out.println("The number is" + z);
                break;
        }
 
