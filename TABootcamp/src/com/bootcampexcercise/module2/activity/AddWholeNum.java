@@ -4,9 +4,9 @@ public class AddWholeNum {
     public static void main(String[] args) {
 
         int sum = 0;
-                for (int i = 50; i<=100; i++) {
-              sum = sum + i;
-                }
-        System.out.println("The number is " +sum);
+        for (int i = 50; i<=100; i++) {
+            sum = sum + i;
+            System.out.println("The number is " +sum);
+        }
     }
 }
