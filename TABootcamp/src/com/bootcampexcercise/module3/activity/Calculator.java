@@ -34,6 +34,16 @@ public class Calculator {
         return sum;
     }
 
+    public int add(int x, int y, int z) {
+        int sum = x + y + z;
+        return sum;
+    }
+
+    public double add(double x, double y) {
+        double sum = x + y;
+        return sum;
+    }
+
     // Subtract
     public int subtract(int x, int y) {
         int diff = 0;
